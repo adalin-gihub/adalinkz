@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADALIN</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: radial-gradient(circle at top, #ffffff 0%, #faf6f0 50%, #f3ece1 100%);
+            color: #333333;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 440px;
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(212, 175, 55, 0.25);
+            border-radius: 24px;
+            padding: 36px 24px;
+            box-shadow: 0 15px 35px rgba(212, 175, 55, 0.12), 0 5px 15px rgba(0, 0, 0, 0.04);
+            text-align: center;
+        }
+
+        .title {
+            font-family: 'Playfair Display', serif;
+            font-size: 38px;
+            font-weight: 700;
+            letter-spacing: 3px;
+            background: linear-gradient(135deg, #d4af37 0%, #aa7c11 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 28px;
+            text-transform: uppercase;
+        }
+
+        .buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            margin-bottom: 32px;
+        }
+
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 16px 20px;
+            border-radius: 14px;
+            font-size: 16px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+        }
+
+        .btn-kaspi {
+            background: linear-gradient(135deg, #e52d27 0%, #b31217 100%);
+            color: #ffffff;
+            border: none;
+        }
+
+        .btn-kaspi:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 18px rgba(229, 45, 39, 0.35);
+        }
+
+        .btn-whatsapp {
+            background-color: #ffffff;
+            color: #25d366;
+            border: 1.5px solid rgba(37, 211, 102, 0.3);
+        }
+
+        .btn-whatsapp:hover {
+            background-color: #f8fff9;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 18px rgba(37, 211, 102, 0.15);
+        }
+
+        .socials {
+            border-top: 1px dashed rgba(212, 175, 55, 0.3);
+            padding-top: 24px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .social-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: #ffffff;
+            padding: 12px 16px;
+            border-radius: 12px;
+            border: 1px solid rgba(0, 0, 0, 0.05);
+        }
+
+        .social-label {
+            font-size: 14px;
+            color: #777777;
+            font-weight: 500;
+        }
+
+        .social-link {
+            font-size: 15px;
+            color: #aa7c11;
+            font-weight: 600;
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        .social-link:hover {
+            color: #d4af37;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">ADALIN</h1>
+        
+        <div class="buttons">
+            <a href="https://l.kaspi.kz/shop/9guWhfybRuWAoV1?sessionId=c4515067-3456-40ae-a42f-03256ad3341e1790873628" target="_blank" class="btn btn-kaspi">
+                Перейти на Kaspi магазин
+            </a>
+            <a href="http://wa.me/+77070250350" target="_blank" class="btn btn-whatsapp">
+                Перейти на WhatsApp
+            </a>
+        </div>
+
+        <div class="socials">
+            <div class="social-item">
+                <span class="social-label">Instagram</span>
+                <a href="https://www.instagram.com/adelline.aa?stkn=MXRiMGJ1cjF3ZnhyMQ%3D%3D&utm_source=qr" target="_blank" class="social-link">adalin.kzz</a>
+            </div>
+            <div class="social-item">
+                <span class="social-label">TikTok</span>
+                <a href="https://www.tiktok.com/@adalin.kz?_r=1&_t=ZS-9AFhnKXsAon" target="_blank" class="social-link">adalin.kz</a>
+            </div>
+            <div class="social-item">
+                <span class="social-label">WhatsApp</span>
+                <a href="http://wa.me/+77070250350" target="_blank" class="social-link">+7 707 025 03 50</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
